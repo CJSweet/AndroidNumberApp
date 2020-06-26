@@ -13,3 +13,7 @@ This app is designed to be a one stop shop for all things you may want to do wit
 ## Third version
 
   This will be the biggest version. Here the user will be able to enter in a set of numbers, and then the app will be able to calculate mean, median, mode, range, and maybe matrix multiplication. That might be for another version however. 
+  
+## Fourth version
+
+Maybe some UI work, make it look like more than a basic Android app.
