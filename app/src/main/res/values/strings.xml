@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Basic Random Number App</string>
+    <string name="acBtn">A/C</string>
+    <string name="cBtn">C</string>
+    <string name="negBtn">\u00B1</string>
+    <string name="multBtn">\u00D7</string>
+    <string name="sevBtn">7</string>
+    <string name="eightBtn">8</string>
+    <string name="nineBtn">9</string>
+    <string name="fourBtn">4</string>
+    <string name="fiveBtn">5</string>
+    <string name="sixBtn">6</string>
+    <string name="oneBtn">1</string>
+    <string name="twoBtn">2</string>
+    <string name="threeBtn">3</string>
+    <string name="zeroBtn">0</string>
+    <string name="divBtn">\u00F7</string>
+    <string name="subBtn">\u2212</string>
+    <string name="addBtn">\u002B</string>
+    <string name="deciBtn">.</string>
+    <string name="equalBtn">\u003D</string>
+
 </resources>
