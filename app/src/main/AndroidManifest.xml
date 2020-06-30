@@ -9,9 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".randNumGen"
-            android:parentActivityName=".MainActivity"
-            >
+        <activity android:name=".Calculator"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+        <activity
+            android:name=".randNumGen"
+            android:parentActivityName=".MainActivity">
+
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -21,5 +26,7 @@
             </intent-filter>
         </activity>
     </application>
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
 
 </manifest>
