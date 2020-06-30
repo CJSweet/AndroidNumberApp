@@ -10,6 +10,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     Button toRandBtn;
+    Button toCalcBtn;
 
 
     @Override
@@ -26,11 +27,25 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        toCalcBtn = findViewById(R.id.toCalcBtn);
+        toCalcBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                openCalcActivity();
+            }
+        });
+
     }
 
     /// code from https://www.youtube.com/watch?v=bgIUdb-7Rqo
     public void openRandActivity(){
         Intent intent = new Intent(this, randNumGen.class);
+        startActivity(intent);
+    }
+
+    public void openCalcActivity(){
+        Intent intent = new Intent(this, Calculator.class);
         startActivity(intent);
     }
 }

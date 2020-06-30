@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import java.util.Objects;
 import java.util.Random;
 
 public class randNumGen extends AppCompatActivity {
@@ -21,7 +22,7 @@ public class randNumGen extends AppCompatActivity {
         /// this makes the button show up, but must specify parent
         /// activity in Android Manifest
         /// https://www.youtube.com/watch?v=FcPUFp8Qrps
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
 
 
         ///Change range in text on change of seekbar
