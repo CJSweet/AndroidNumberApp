@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Basic Random Number App</string>
+    <string name="app_name">A Sweet Number App</string>
     <string name="acBtn">A/C</string>
     <string name="cBtn">C</string>
     <string name="negBtn">\u00B1</string>
@@ -19,5 +19,14 @@
     <string name="addBtn">\u002B</string>
     <string name="deciBtn">.</string>
     <string name="equalBtn">\u003D</string>
+    <string name="statsInfo">1. Type in a number, and tap the check to enter it.</string>
+    <string name="submitInfo">2. After entering all the numbers, tap the submit button to see the stats!</string>
+    <string name="submitBtn">Submit</string>
+    <string name="dataText">Data Set:</string>
+    <string name="meanText">Mean:</string>
+    <string name="medianText">Median:</string>
+    <string name="modeText">Mode:</string>
+    <string name="rangeText">Range:</string>
+
 
 </resources>
