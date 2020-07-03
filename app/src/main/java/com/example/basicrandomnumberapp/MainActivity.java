@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button toRandBtn;
     Button toCalcBtn;
-
+    Button toStatsBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
         toRandBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 openRandActivity();
             }
         });
@@ -31,21 +30,33 @@ public class MainActivity extends AppCompatActivity {
         toCalcBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 openCalcActivity();
+            }
+        });
+
+        toStatsBtn = findViewById(R.id.toStatsBtn);
+        toStatsBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openStatsActivity();
             }
         });
 
     }
 
     /// code from https://www.youtube.com/watch?v=bgIUdb-7Rqo
-    public void openRandActivity(){
+    public void openRandActivity() {
         Intent intent = new Intent(this, randNumGen.class);
         startActivity(intent);
     }
 
-    public void openCalcActivity(){
+    public void openCalcActivity() {
         Intent intent = new Intent(this, Calculator.class);
+        startActivity(intent);
+    }
+
+    public void openStatsActivity() {
+        Intent intent = new Intent(this, StatsActivity.class);
         startActivity(intent);
     }
 }
