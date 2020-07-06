@@ -1,19 +1,25 @@
 # AndroidNumberApp
-This app is designed to be a one stop shop for all things you may want to do with numbers. Includes random number generator, calculator, and data set manipulations.
+This app is designed to be a one stop shop for all things you may want to do with numbers. Includes a random number generator, a calculator, and a statistics section.
 
-## First version
+## Part 1
   A random number generator. User can select the range the random number is selected from, with a floor of 1 and up to a ceiling of 10.
   
   The code and idea for this was based on this YouTube video by TreeHouse: https://www.youtube.com/watch?v=EOfCEhWq8sg&t=255s
-  
-## Second version
 
-  The second version will include a calculator. A Home screen will be implemented to be able to choose between the calculator and the random number generator. 
+  ![randNumGif](readmeGifs/randNumGif.gif)
   
-## Third version
+## Part 2
 
-  This will be the biggest version. Here the user will be able to enter in a set of numbers, and then the app will be able to calculate mean, median, mode, range, and maybe matrix multiplication. That might be for another version however. 
+  The second part is a calculator. It shows the history of calculations, has the ability to switch between positive and negative, and can clear all of memory. 
+
+  ![calcGif](readmeGifs/calcGif.gif)
   
-## Fourth version
+## Part 3
 
-Maybe some UI work, make it look like more than a basic Android app.
+  Part 3 is for statistics. Here the user can enter in a set of numbers, and then the app will calculate and display the mean, median, mode, and range. 
+
+  ![statsGif](readmeGifs/statsGif.gif)
+  
+## Part 4?
+
+Might try to update the UI to be more than the default Android UI. Might try to add another section that allows for matrix multiplication, we will see. 
